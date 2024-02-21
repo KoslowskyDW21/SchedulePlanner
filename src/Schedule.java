@@ -23,6 +23,13 @@ public class Schedule {
 
     }
 
+    private void testInSchedule(Course course) {
+
+    }
+
+    private void createRecommendedSchedule() {
+
+    }
 
 
 }

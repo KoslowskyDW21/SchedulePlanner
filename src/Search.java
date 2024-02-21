@@ -11,6 +11,8 @@ public class Search {
         this.results = new ArrayList<Course>();
     }
 
+    private void setUserInput(String input) { this.userInput = input; }
+
     private ArrayList<Course> getResults() {
         return results;
     }
@@ -19,5 +21,7 @@ public class Search {
         this.filters = filters;
     }
 
+    private void generateResults() {
 
+    }
 }

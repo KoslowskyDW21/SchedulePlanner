@@ -5,6 +5,14 @@ public class User {
     private String major;
     private ArrayList<Course> gradReqs;
 
+    public String getMajor() {
+        return major;
+    }
+
+    public ArrayList<Course> getGradReqs() {
+        return gradReqs;
+    }
+
     public User(int userID, String name, String major) {
         this.userID = userID;
         this.name = name;
@@ -12,6 +20,16 @@ public class User {
         this.gradReqs = new ArrayList<>();
     }
 
+    private void changeName(String newName) {
 
+    }
+
+    private void changeMajor(String newMajor) {
+
+    }
+
+    private void setGradReqs(ArrayList<Course> req) {
+
+    }
 
 }

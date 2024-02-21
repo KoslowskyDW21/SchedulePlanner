@@ -11,6 +11,18 @@ public class Course {
     private final Course[] coReqs;
 
 
+    public LocalTime[] getTimeSlot() {
+        return timeSlot;
+    }
+
+    public Course[] getPreReqs() {
+        return preReqs;
+    }
+
+    public Course[] getCoReqs() {
+        return coReqs;
+    }
+
     public Course(String courseCode, String professor, String color, LocalTime[] timeSlot,
                   String description, int numCredits, Course[] preReqs, Course[]coReqs) {
         this.courseCode = courseCode;
@@ -23,6 +35,16 @@ public class Course {
         this.coReqs = coReqs;
     }
 
+    private void changeColor(String color) {
 
+    }
+
+    private void addPrereq(Course prereq) {
+
+    }
+
+    private void addCoreq(Course coreq) {
+
+    }
 
 }

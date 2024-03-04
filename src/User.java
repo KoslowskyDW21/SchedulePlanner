@@ -20,15 +20,19 @@ public class User {
         this.gradReqs = new ArrayList<>();
     }
 
-    private void changeName(String newName) {
+    public void changeName(String newName) {
 
     }
 
-    private void changeMajor(String newMajor) {
+    public void changeMajor(String newMajor) {
 
     }
 
-    private void setGradReqs(ArrayList<Course> req) {
+    public void setGradReqs(ArrayList<Course> req) {
+
+    }
+
+    public void LoadSchedule(){
 
     }
 

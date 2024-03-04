@@ -2,7 +2,7 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 public class Schedule {
     private int totalCredits;
-    private ArrayList<LocalTime[]> filledTimeslots;
+    private ArrayList<String> filledTimeslots;
     private ArrayList<Course> currentCourses;
 
     public Schedule() {
@@ -11,23 +11,31 @@ public class Schedule {
         this.currentCourses = new ArrayList<>();
     }
 
-    private int getTotalCredits() {
+    public int getTotalCredits() {
         return totalCredits;
     }
 
-    private void addCourse(Course course) {
+    public void addCourse(Course course) {
 
     }
 
-    private void removeCourse(Course course) {
+    public void removeCourse(Course course) {
 
     }
 
-    private void testInSchedule(Course course) {
+    public boolean testInSchedule(Course course) {
+        return false;
+    }
+
+    public void createRecommendedSchedule() {
 
     }
 
-    private void createRecommendedSchedule() {
+    public String toString(){
+        return null;
+    }
+
+    public void SaveSchedule(){
 
     }
 

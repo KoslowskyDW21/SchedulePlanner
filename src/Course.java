@@ -39,12 +39,4 @@ public class Course {
 
     }
 
-    private void addPrereq(Course prereq) {
-
-    }
-
-    private void addCoreq(Course coreq) {
-
-    }
-
 }

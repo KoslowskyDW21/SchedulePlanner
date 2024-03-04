@@ -11,17 +11,17 @@ public class Search {
         this.results = new ArrayList<Course>();
     }
 
-    private void setUserInput(String input) { this.userInput = input; }
+    public String modifyQuery(String input) { return input; }
 
-    private ArrayList<Course> getResults() {
+    public ArrayList<Course> getResults() {
         return results;
     }
 
-    private void setFilters(String[] filters) {
+    public void setFilters(String[] filters) {
         this.filters = filters;
     }
 
-    private void generateResults() {
+    public void generateResults() {
 
     }
 }

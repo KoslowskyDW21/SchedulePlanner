@@ -8,6 +8,7 @@ public class Filter {
     int levelMax;
     String profName;
     String courseCode;
+    String department;
 
 
 
@@ -19,6 +20,7 @@ public class Filter {
         this.levelMax = 400;
         this.profName = "";
         this.courseCode = "";
+        this.department = "";
     }
 
 }

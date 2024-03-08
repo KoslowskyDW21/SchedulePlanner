@@ -2,6 +2,7 @@ import java.time.LocalTime;
 
 public class Course {
     private final String courseCode;
+    private final String name;
     private final String professor;
     private String color;
     //private final LocalTime[] timeSlot;
@@ -24,9 +25,10 @@ public class Course {
         return coReqs;
     }
 
-    public Course(String courseCode, String professor, String color, LocalTime[] timeSlot,
+    public Course(String courseCode, String name, String professor, String color, LocalTime[] timeSlot,
                   String description, int numCredits, Course[] preReqs, Course[]coReqs) {
         this.courseCode = courseCode;
+        this.name = name;
         this.professor = professor;
         this.color = color;
         //this.timeSlot = timeSlot;
